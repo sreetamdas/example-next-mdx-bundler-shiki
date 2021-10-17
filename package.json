@@ -1,0 +1,25 @@
+{
+	"name": "example-next-mdx-bundler-shiki",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@stefanprobst/remark-shiki": "^2.0.1",
+		"esbuild": "^0.12.22",
+		"mdx-bundler": "^6.0.1",
+		"next": "11.1.0",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"shiki": "^0.9.12"
+	},
+	"devDependencies": {
+		"@types/react": "17.0.19",
+		"@types/react-dom": "17.0.9",
+		"typescript": "4.3.5"
+	}
+}
